@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Etiqueta para audio y Video</title>
+  </head>
+  <body>
+    <h2>Control de audio</h2>
+    <audio src="fuente/MARAMA_Bronceado.mp3" controls="">
+    </audio>
+    <h2>Audio AutoPlay</h2>
+    <p>Reproduce el Video inmediatamente que se abre la Web, sin necesidad de dar click a al boton de reproduccion</p>
+    <audio src="fuente/MARAMA_Bronceado.mp3" controls autoplay>
+    </audio>
+    <p>Reproduce el audio inmediatamente que se termine</p>
+    <audio src="fuente/MARAMA_Bronceado.mp3" controls loop>
+    </audio>
+    <h2>Audio Preload</h2>
+    <p>Este Atributo tiene un comportamiento especial cuando estamos trabajando con archivos multimedia que son muy pesados </p>
+    <ul>
+      <li>none: NO almacena nuestros archivos</li>
+      <audio src="fuente/MARAMA_Bronceado.mp3" controls preload="none">
+      </audio>
+      <li>auto: Almacena Temporalmente nuestros archivos</li>
+      <audio src="fuente/MARAMA_Bronceado.mp3" controls preload="none">
+      </audio>
+    </ul>
+  </body>
+</html>

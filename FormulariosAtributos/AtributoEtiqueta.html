@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user=scalabe=no">
+    <title>Formularios Atributos</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend> Atributos de etiqueta input</legend>
+        <p>
+          Campo de texto deshabilitado <br/>
+          <input type="text" disabled value="Texto">
+        </p>
+        <p>
+          Campo de texto solo lectura <br/>
+          <input type="text" readonly value="Texto">
+        </p>
+        <p>
+          Texto maximo de 5 caracteres (Intentemos escrtibir el nonmbre Alejandro) <br/>
+          <input type="text" maxlength="5">
+        </p>
+        <p>
+          Campo para ingresar un número con valor mínimo de 100 <br/>
+          <input type="number" max="100">
+        </p>
+        <p>
+          Campo para ingresar un número con valor mínimo de 10 <br/>
+          <input type="number" min="10">
+        </p>
+        <p>
+          Campo de texto con valor predeterminado de texto ejemplo <br/>
+          <input type="text" value="Texto ejemplo">
+        </p>
+        <p>
+          Campo númerico con paso de 5 <br/>
+          <input type="number" step="5">
+        </p>
+        <p>
+          Atributo con pista para el usuario <br/>
+          <input type="text" placeholder="Ingrese su nombre">
+        </p>
+        <p>
+          Atributo para nombrar la etiqueta <br/>
+          <input type="text" name="campo_apellido">
+        </p>
+        <p>
+          Atributo para asignar un identificador unico <br/>
+          <input type="email" id="email_usuario">
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
