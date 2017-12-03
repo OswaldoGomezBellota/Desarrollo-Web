@@ -1,0 +1,15 @@
+
+#container img{
+width: 80%;
+margin: 0 auto;
+border: 5px dotted black;
+text-align: center;
+}
+
+.cajas1, .cajas2{
+display: inline-block;
+width: 20%;
+margin: 10vh o;
+border: 1px solid black;
+background: #5810E8;
+}

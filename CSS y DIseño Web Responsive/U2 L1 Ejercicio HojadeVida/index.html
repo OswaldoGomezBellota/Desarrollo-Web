@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de Vida Juan Ledesma Carmona</title>
+    <style>
+        h1
+        {
+            font-size:50px;
+        }
+    </style>
+<link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body id="Contenedor">
+    <!---
+      Encabezado de la Hoja de vida, esta seccion contiene la foto, informacion personal y la lista de contenido
+    -->
+    <header id="Encabezado">
+      <img src="./Imagenes/Foto.png" alt="Imagen Personal - Juan Ledesma"
+      width="250" height="250">
+      <h1 style="color:red">Juan Ledesma Carmona - Ingeniero De Software</h1>
+      <h2>Edad: 25</h2>
+      <h2>Profesión: Desarrollador Web</h2>
+      <b>Contenido de la Hoja de vida: </b>
+      <nav>
+        <ol>
+          <li class="itemIndice"><a class="enlace"href="#AcercaDe">Acerca de Mi</a></li>
+          <li><a href="#Estudios">Estudios Realizados</a></li>
+          <li><a href="#Extras">Estudios Extras y Certificaciones</a></li>
+          <li><a href="#Habilidades">Habilidades</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+          <li><a href="#Pie">Redes Sociales e Información Personal</a></li>
+        </ol>
+      </nav>
+    </header>
+      <!---
+        Esta seccion contiene una descripcion acerca de mi perfil profesional.
+      -->
+    <section id="AcercaDe">
+      <h2>Acerca de Mi: </h2>
+      <p>Soy un desarrollador Web con 5 años de experiencia en la industria, he trabajado
+         para varias compañías a lo largo de mi carrera profesional.
+         Actualmente soy apasionado por las nuevas tecnologías, y por la educación en línea
+         la mayor parte de mi tiempo libre me dedico a explorar estas nuevas tecnologías y a mirar
+         cómo pueden aportar en mi labor de día a día.
+         Soy un profesional completo, autodidacta, siempre estoy buscando innovar y hacer cosas sorprendentes,
+         me gusta tanto la parte de diseño e interacción con el lado del cliente (Frontend) tanto como
+         el manejo de la lógica de negocio, programación de servidores y administración de bases de datos (Backend).
+         Me encanta construir aplicaciones desde cero, pasando por el diseño de la interfaz del usuario, la experiencia,
+         la interactividad hasta el procesamiento de datos en el servidor y el almacenamiento en bases de datos.</p>
+    </section>
+
+    <!--
+      Esta seccion es un contenedor para agrupar los Estudios Realizados, Estudios extras y certificaciones,
+      Habilidades y el formulario de contacto, es la seccion principal de la Hoja de Vida.
+    -->
+    <section id="indice">
+      <!-- Estudios Realizados -->
+      <article id="Estudios">
+        <h2>Estudios Realizados: </h2>
+        <ul>
+          <li>
+            Primaria Escolar -
+            <a href="http://upb.edu.co">Universidad Pontificia Bolivariana</a>
+            <img src="./Imagenes/upb.jpg" alt="Universidad Pontificia Bolivariana" width="100" height="60"></li>
+          <li>Bachillerato Escolar -
+            <a href="http://upb.edu.co">Universidad Pontifica Bolivariana</a>
+            <img src="./Imagenes/upb.jpg" alt="Universidad Pontificia Bolivariana" width="100" height="60">
+          </li>
+          <li>Tecnologia en Desarrollo de Software -
+            <a href="http://politecnicojic.edu.co">Politecnico Colombiano Jaime Isaza Cadavid</a>
+            <img src="./Imagenes/polijic.jpg" alt="Politecnico Jaime Isava Cadavid" width="100" height="60">
+          </li>
+          <li>Ingenieria de Software -
+            <a href="http://udem.edu.co">Universidad de Medellin Colombia</a>
+            <img src="./Imagenes/umed.jpg" alt="Universidad de Medellin" width="100" height="100">
+          </li>
+        </ul>
+      </article>
+
+      <!-- Seccion de Estudios Extras y Certificaciones -->
+      <article id="Extras">
+        <h2>Estudios Extras y Certificaciones: </h2>
+        <ul>
+          <li>Especialista en Ingeniería de Software - UdeM</li>
+          <li>Microsoft oficial course - Programming in HTML5 with CSS3 and JavaScript</li>
+          <li>Curso oficial de Desarrollar Web NextUniversity</li>
+          <li>Curso oficial de Desarrollador JavaScript NextUniversity</li>
+        </ul>
+        <div>
+          <h2>Video de lo que fue el curso de Desarrollo Web en Next University: </h2>
+          <video controls width="300" height="300">
+            <source src="./Videos/CursoNextU.mp4" type="video/mp4">
+            <source src="./Videos/CursoNextU.webm" type="video/webm">
+            Tu Navegador No Soporta La Etiqueta Video.
+          </video>
+        </div>
+      </article>
+
+      <!-- Seccion de Habilidades -->
+      <article id="Habilidades">
+        <h2>Habilidades: </h2>
+        <ul>
+          <li>
+            <h3>HTML5, CSS3, JavaScript:  100%</h3>
+            <img src="./Imagenes/HTML5-CSS3-JS.jpg" alt="HTML5,CSS3,JS" width="150" height="150"/>
+            <p>Diseño, estructuración y creacion de sitios web utilizando HTML5, CSS3 y JavaScript</p>
+          </li>
+          <li>
+            <h3>Lenguaje de Programación Java: 60%</h3>
+            <img src="./Imagenes/java.jpg" alt="Java" width="200" height="150">
+            <p>
+              Programación de aplicaciones de Escritorio y Web usando el lenguaje Java,
+              Empleando Técnicas como Programacion Orientada a Objetos, MVC, y Frameworks como Spring.
+             </p>
+          </li>
+          <li>
+            <h3>Lenguaje de Programación PHP: 70%</h3>
+            <img src="./Imagenes/php.png" alt="PHP" width="150" height="150">
+            <p>
+              Desarrollo de aplicaciones web utilizando el lenguaje de programación PHP.
+            </p>
+          </li>
+          <li>
+            <h3>Entorno de Ejecución Node.js</h3>
+            <img src="./Imagenes/node.jpg" alt="Node.js" width="250" height="150">
+            <p>
+              Desarrollo de Aplicaciones y Servidores Web escritos en Node.js (JavaScript del lado del Servidor)
+            </p>
+          </li>
+          <li>
+            <h3>Diseño, Creación y Administración de los siguientes motores y servidores de bases de datos: </h3>
+            <ul>
+              <li>Oracle</li>
+              <li>MySQL</li>
+              <li>SQL Server</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </li>
+          <li>
+            <h3>ADICIONAL: Conocimientos en sistemas operativos y Servidores Linux</h3>
+            <img src="./Imagenes/linux.jpg" alt="Linux" width="200" height="200">
+          </li>
+        </ul>
+      </article>
+
+      <!-- Seccion del Formulario de Contacto -->
+      <article id="Contacto">
+        <h2>¿Quieres Escribirme?</h2>
+        <form>
+          <fieldset>
+            <legend>Formulario de Contacto</legend>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre" name="Nombre" required>
+            <label for="Email">Email: </label>
+            <input type="email" id="Email" name="Nombre" required>
+            <label for="Comentario">Comentario: </label>
+            <textarea name="Comentario" rows="8" cols="40" required></textarea>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar Formulario">
+          </fieldset>
+        </form>
+      </article>
+    </section>
+    <!--
+      Pie de la pagina, contiene enlace a las redes sociales y los medios de comunicacion.
+    -->
+    <footer id="Pie">
+      <h2>Encuéntrame en las principales redes sociales y medios de comunicación: </h2>
+      <div>
+        <a href="http://facebook.com"><img src="./Iconos/facebook.svg" alt="Facebook" width="100" height="100"></a>
+        <a href="http://twitter.com"><img src="./Iconos/twitter.svg" alt="Twitter" width="100" height="100"></a>
+        <a href="http://youtube.com"><img src="./Iconos/youtube.svg" alt="Youtube" width="100" height="100"></a>
+        <a href="http://google.com"><img src="./Iconos/google-plus.svg" alt="Google" width="100" height="100"></a>
+      </div>
+      <div>
+        <img src="./Iconos/skype.svg" alt="Skype" width="100" height="100">
+        <p> - JuanLedesma</p>
+      </div>
+      <div>
+        <img src="./Iconos/whatsapp.svg" alt="Wapp" width="100" height="100">
+        <p>300-300-30-30</p>
+      </div>
+    </footer>
+  </body>
+</html>

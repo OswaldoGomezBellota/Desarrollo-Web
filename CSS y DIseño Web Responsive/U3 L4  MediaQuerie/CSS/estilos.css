@@ -1,0 +1,26 @@
+@media print {
+img{
+  width: 100%
+}
+h1{
+  text-align: center;
+}
+}
+@media screen {
+h1{
+  text-align: right;
+}
+}
+
+@media (max-width:420px) {
+    p{
+      color:red;
+    }
+}
+
+@media (min-width:421px) and (max-width:720px)
+ {
+   p{
+     color: blue;
+   }
+}

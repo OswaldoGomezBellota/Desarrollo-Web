@@ -1,0 +1,18 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-left: 10px;
+
+}
+
+#original {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+  /* ingresamos dos valores 1er Ancho Sdo Altura */
+#transformado {
+  transform: scale(1,2.5);
+}

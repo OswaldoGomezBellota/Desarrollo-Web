@@ -1,0 +1,25 @@
+div {
+    border: 1px solid black;
+}
+
+#contenedor {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  perspective: 50px;
+}
+
+/*translate3d recibe dos valores desplazamiento horizontal y vertical
+numeros positivos se trasladan hacia la derecha y negativos izquierda
+en el caso de arriba es negativo y abajo positivo*/
+#transformado {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  /* 3D recive tres parametros Y, X, Z */
+ transform: translate3d(-10px,20px,15px);
+
+}

@@ -1,0 +1,20 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#caja{
+  transform: rotate(10deg);
+}
+#original {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+/* se puede rotar 360 con los ejes */
+#transformado {
+  transform: rotateX(50deg);
+}

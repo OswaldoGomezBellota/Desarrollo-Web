@@ -1,0 +1,86 @@
+body
+{
+  background-color: gray;
+}
+footer
+{
+  margin-top: 20px;
+}
+img
+{
+  border-radius: 10px
+}
+#indice{
+
+}
+#Contenedor{
+  font-family: helvetica;
+  font-size: 16px;
+}
+#Encabezado{
+  display: block;
+  margin: 0 auto;
+}
+.itemIndice{
+  list-style-type: upper-roman;
+}
+.enlace{
+  color: red;
+}
+a[href^='#']{
+  color: red;
+}
+img[src$='.svg']{
+  border-radius: 50px;
+}
+img[src$='jpg'],img[src$='png']{
+  border: 1px solid black;
+  border-radius: 5px
+}
+*{
+  margin: 1vh 1vw;
+}
+h1 + h2{
+  text-decoration: underline;
+}
+h2 ~ p {
+  text-align: justify;
+}
+article> h2 {
+  text-decoration: underline;
+}
+ul li {
+  list-style-type: circle;
+}
+
+a[href^='http://']:visited {
+  color: red;
+}
+a:hover{
+  color:green;
+}
+h2:first-child{
+  text-decoration: underline;
+}
+input:focus{
+  width: 160px;
+  height: 140px;
+}
+p::first-letter{
+text-transform: capitalize;
+}
+p::first-line{
+  font-size: 32px
+}
+p::selection{
+
+}
+#Estudios>ul>li:first-child>a::after{
+  content: '" - after"'
+}
+#Estudios>ul>li:last-child>a::before{
+  content: '"before - "'
+}
+#Estudios>ul>li:nth-child(2)>a::after{
+  content: ''"hijo #2"
+}
