@@ -13,7 +13,9 @@ header{
 	background: -moz-linear-gradient(right, #5CA861 , #BADFBC); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #5CA861 , #BADFBC); /* Standard syntax */
 	border-radius: 10px;
+
 }
+
 
 header h1{
 	padding-left: 10px;

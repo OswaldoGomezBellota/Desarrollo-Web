@@ -16,5 +16,5 @@ div {
 
 /* se puede rotar 360 con los ejes */
 #transformado {
-  transform: rotateX(50deg);
+  transform: rotate(-10deg);
 }
